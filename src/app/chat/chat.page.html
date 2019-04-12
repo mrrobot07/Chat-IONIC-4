@@ -1,9 +1,81 @@
+<ion-menu side="start" type="push">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>End Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+<ion-router-outlet main></ion-router-outlet>
+
+
+
 <ion-header>
-  <ion-toolbar>
-    <ion-title>chat</ion-title>
-  </ion-toolbar>
+    <ion-toolbar color='dark'>
+        <ion-buttons slot="start">
+            <ion-menu-button>
+                <ion-menu-toggle>
+                    <ion-icon name="menu" size='large'></ion-icon>
+                </ion-menu-toggle>       
+            </ion-menu-button>
+          </ion-buttons>
+        <ion-title>Baygon-Chat</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+        <ion-label>
+            <h2>Hola</h2>
+            <small>hola anderson cómo estás ?</small>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+          <ion-avatar slot="start">
+            <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ade7741?d=identicon&f=y">
+          </ion-avatar>
+          <ion-label>
+              <h2>Hola</h2>
+              <small>hola anderson cómo estás ?</small>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-avatar slot="start">
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4141fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+            <ion-label>
+                <h2>Hola</h2>
+                <small>hola anderson cómo estás ?</small>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+              <ion-avatar slot="start">
+                <img src="https://gravatar.com/avatar/dba6vae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+              </ion-avatar>
+              <ion-label>
+                <h2>Hola</h2>
+                <small>hola anderson cómo estás ?</small>
+              </ion-label>
+             
+            </ion-item>
+    </ion-list>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+        <ion-fab-button color='dark'>
+            <ion-icon name="navigate"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
 </ion-content>
+
+
